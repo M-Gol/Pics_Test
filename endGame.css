@@ -1,0 +1,37 @@
+body {
+    transform: scale(0.5);
+    font-family: "Ubuntu", serif;
+    font-weight: bolder;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    height: 697px;
+    background: linear-gradient(blue, rgb(255, 94, 0));
+}
+.text {
+    z-index: 1;
+    text-align: center;
+    margin-top: 100px;
+}
+.background {
+    z-index: 0;
+    max-width: 100%;
+}
+.box {
+    width: 100%;
+    position: absolute;
+}
+img {
+    width: 700px;
+    display: none;
+}
+.btn {
+    color: wheat;
+    background: none;
+    border: 3px, solid;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: "Ubuntu", serif;
+    font-weight: bolder;
+    font-size: large;
+}
