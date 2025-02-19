@@ -121,6 +121,7 @@ const pic2 = document.getElementById('pic2').src
 
 
 Check.addEventListener('click', function() {
+    document.body.style = 'transform:scale(0.45)'
     document.getElementById('header').innerHTML = `<p>Пройдите тест, отметьте фотографии, которые сгенерировала программа</p>`
     document.getElementById('after').innerHTML = `
     <div class="table">
