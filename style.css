@@ -1,12 +1,11 @@
 body {
-    padding-bottom: 84px;
     font-family: "Ubuntu", serif;
     font-weight: bolder;
     justify-items: center;
     text-align: center;
     color: white;
     transform: scale(0.5);
-    height: 100%;
+    height: 100vh;
     background: linear-gradient(blue, rgb(255, 94, 0));
 }
 a {
@@ -18,8 +17,7 @@ img {
     width: 90px;
 }
 .ffield {
-    margin-top: 270px;
-    height: 367px;
+    height: 100vh;
 }
 .cl {
     margin: 10px;

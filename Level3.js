@@ -60,7 +60,7 @@ function CompareImg(button) {
             <div class="ffield">
                 <h1>Уровень пройден!</h1>
                 <h3>Вы отметили все фотографии без ошибок, перейти на</h3>
-                <button class="check"><a href='Level3.html'><h3>следующий уровень?</h3></a></button>
+                <button class="check"><a href='Level4.html'><h3>следующий уровень?</h3></a></button>
             </div>
             `
         }
